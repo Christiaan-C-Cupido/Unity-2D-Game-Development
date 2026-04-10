@@ -1016,6 +1016,7 @@ GameObject:
   - component: {fileID: 1068586886}
   - component: {fileID: 1068586883}
   - component: {fileID: 1068586887}
+  - component: {fileID: 1068586888}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1037,7 +1038,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 15
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1103,6 +1104,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.54, y: 4.07}
   m_Size: {x: 3.3380823, y: 0.53321177}
   m_Direction: 1
+--- !u!114 &1068586888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068586882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd8a0f1ea038914d905d8904e79372b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  torqueAmount: 5
 --- !u!1 &1201158356
 GameObject:
   m_ObjectHideFlags: 0
